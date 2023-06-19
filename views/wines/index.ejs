@@ -1,0 +1,15 @@
+<%- include('../partials/header') %>
+<link rel='stylesheet' href='/stylesheets/wines.css' />
+
+  <h2>Our Best Sellers</h2>
+    <% for (let i = 0; i < wines.length; i++) { %>
+      <h3><%= wines[i].name %></h3>
+      <img src="<%= wines[i].img %>">
+      <p>Type: <%= wines[i].type %></p>
+      <p>Origin: <%= wines[i].origin %></p>
+      <p>Description: <%= wines[i].description %></p>
+      
+    <% }; %>
+
+
+<%- include('../partials/footer') %>

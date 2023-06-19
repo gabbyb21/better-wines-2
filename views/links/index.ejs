@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+<link rel='stylesheet' href='/stylesheets/links.css' />
+
+<h2>Connect with us</h2>
+
+<% for (let i = 0; i < links.length; i++) { %>
+  <h3><%= links[i].name %></h3>
+<% }; %>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+<p>Email: general@betterwines.com</p>
+<p>Phone: 123-456-7899</p>
+
+
+
+<%- include('../partials/footer') %>

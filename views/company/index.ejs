@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+<link rel='stylesheet' href='/stylesheets/company.css' />
+
+<h2>Our History</h2>
+
+<p>We are a wine company bringing you the most tasteful wines with robust flavors that cause excitement in every sip. Our company has a rich history in the wine industry, spanning several decades. We started as a small family-owned vineyard and have grown into a renowned wine producer with a commitment to quality and excellence.</p>
+
+<div class="staff">
+<h2>Meet Our Team</h2>
+<% for (let i = 0; i < staff.length; i++) { %>
+  <h3><%= staff[i].name %></h3>
+  <img src="<%= staff[i].img %>">
+  <p>Position: <%= staff[i].position %></p>
+  <p>Email: <%= staff[i].email %></p>
+<% }; %>
+</div>
+
+
+<%- include('../partials/footer') %>
