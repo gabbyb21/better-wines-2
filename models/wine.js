@@ -14,7 +14,7 @@ const wines = [
     img: 'images/red.jpeg'
   },
   {
-    name: 'Cava',
+    name: 'Vermentino',
     type: 'White',
     origin: 'Italy',
     description: 'This white wine is a sublime expression of elegance and freshness. Its pale golden hue glistens in the glass, hinting at the radiant flavors that await. As you raise the glass to your nose, a captivating aroma unfolds, filling the air with a symphony of enticing scents.',

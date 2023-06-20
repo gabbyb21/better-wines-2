@@ -9,4 +9,19 @@ h1 {
 
 a {
   color: teal;
+  
+}
+
+.nav {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcomephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
